@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Forno Pizzeria</title>
+    <link rel="stylesheet" href="/dist/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;700&display=swap');
+    </style>
+</head>
+
+<body class="bg-secondary">
+    <header class="flex flex-col items-center">
+        <img src="/logo-primary.png" alt="" class="w-40 h-full">
+        <nav class="py-5">
+            <ul class="flex gap-x-12 h-6 menu">
+                <li class="hover:border-b-2 hover:border-b-primary"><a class="btn" id="home" href="#">INICIO</a></li>
+                <li class="hover:border-solid hover:border-b-2 hover:border-b-primary"><a class="btn" id="menu" href="#">MENU</a></li>
+                <li class="hover:border-solid hover:border-b-2 hover:border-b-primary"><a class="btn" id="contact" href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <hr class="w-full text-primary">
+    </header>
+    <div id="content">
+
+            <div class="saludo border-dashed border-[28px] text-primary p-24 flex flex-col items-center">
+                <h1 class="text-primary text-6xl text-center p-10">BIENVENIDOS</h1>
+                <p class="text-center">"Pizzas artesanales al horno de leña, hechas con ingredientes frescos y amor"</p>
+                <button
+                    class="btn bg-primary text-secondary rounded p-2 text-center ease-out duration-300 hover:scale-125 my-10" id="menu">IR
+                    AL MENU</button>
+            </div>
+
+
+    </div>
+
+    <script src="../src/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+        <div class="contact">
+            <div class="saludo border-dashed border-[28px] text-primary p-24 flex flex-col items-center">
+                <h1 class="text-primary text-6xl text-center p-10">CONTACTO</h1>
+                <p class="text-center">"280415648"</p>
+                <p>Calle la de siempre</p>
+            </div>
+
+        </div>

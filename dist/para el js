@@ -1,0 +1,8 @@
+<div class="home">
+            <div class="saludo border-dashed border-[28px] text-primary p-24 flex flex-col items-center">
+                <h1 class="text-primary text-6xl text-center p-10">BIENVENIDOS</h1>
+                <p class="text-center">"Pizzas artesanales al horno de leña, hechas con ingredientes frescos y amor"</p>
+                <button class="bg-primary text-secondary rounded p-2 text-center ease-out duration-300 hover:scale-125 my-10">IR AL MENU</button>
+            </div>
+
+        </div>
